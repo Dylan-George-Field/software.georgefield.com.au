@@ -1,0 +1,91 @@
+# ----
+# Site
+
+title: Dylan George Field - Adventure
+url: "https://adventure.georgefield.com.au"
+baseurl:
+google_analytics_key: UA-153074309-1
+newsletter_action:
+disqus_shortname: adventure-georgefield
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Ride with me as I travel the world by motorbike. You'll find costs, routes, tips, stories and diaries to help your prepare your own journey 🛵
+author:
+  name: Dylan George Field
+  email: dylan.george.field@gmail.com
+  twitter: # twitter username without the @ symbol
+social:
+  name: Adventure - Dylan George Field
+  links:
+    - https://github.com/CloudCannon/treat-jekyll-template
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+paginate: 10
+paginate_path: "/:num/"
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      push_sidebar_down: true
+      print_stylesheet: true
+      comments: true
+      _options:
+        content:
+          width: 1560
+          height: 2000
+        featured_image:
+          width: 1560
+          height: 2000
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      push_sidebar_down: true
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "default"
+      push_sidebar_down: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+# -----------
+# CloudCannon
+
+social_icons:
+  - Facebook
+  - Google Plus
+  - Instagram
+  - LinkedIn
+  - Pinterest
+  - Tumblr
+  - Twitter
+  - YouTube
+  - RSS
+
+_options:
+  author_image:
+    width: 400
+    height: 400

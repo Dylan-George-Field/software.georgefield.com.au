@@ -1,0 +1,26 @@
+header {
+	padding-left: 10%;
+	padding-right: 10%;
+
+	@media #{$mobile} {
+		padding-top: 45px;
+	}
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.main-content {
+	@media #{$desktop} {
+		display: flex;
+	}
+	padding: 0 30px 50px 30px;
+}
+
+.content {
+	@media #{$desktop} {
+		flex: 1;
+	}
+}

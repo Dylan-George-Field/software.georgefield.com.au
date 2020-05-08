@@ -1,0 +1,29 @@
+---
+title: Blog
+image_view: true
+---
+<h1 class="section-border">Blog</h1>
+
+{% if page.image_view %}
+	{% for category in site.categories reversed %}
+		<h2>{{ category[0] }}</h2>
+		<div class="recipes">
+			{% for post in category[1] %}
+				<div class="recipe">
+					<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title}}" />
+					<a  href="{{ site.baseurl }}{{ post.url }}" style="margin-top:-210px">
+						{% if post.stats %}
+							<span class="stats">
+								<ul>
+									<li>{{post.subtitle}}</li>
+									<li>{{post.distance}}</li>
+								</ul>
+							</span>
+						{% endif %}
+						<span>{{ post.title }}</span>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	{% endfor %}
+{% endif %}

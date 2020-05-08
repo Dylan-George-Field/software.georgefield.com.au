@@ -1,0 +1,71 @@
+<aside class="sidebar {% if page.push_sidebar_down %}push{% endif %}">
+	<div><a class="editor-link btn" href="cloudcannon:collections/_data/sidebar.yml" class="btn"><strong>&#9998;</strong> Edit sidebar</a></div>
+	<div class="author">
+		<p>
+			<a href="{{ site.baseurl }}/about/">
+				<img src="{{ site.baseurl }}{{ site.data.sidebar.author_image }}" alt="author" class="author">
+			</a>
+		</p>
+		<p>{{ site.data.sidebar.description_markdown | markdownify }}</p>
+	</div>
+	<div class="social-icons">
+		<h3>🌏 Countires Travelled</h3>
+		<div class="country-list">
+			{% comment %} {% if site.data.sidebar.facebook && site.data.sidebar.facebook != "" %}<a target="_blank" href="https://facebook.com/{{ site.data.sidebar.facebook }}">{% include social-icon.html icon="Facebook" %}</a>{% endif %} {% endcomment %}
+			{% comment %} {% if site.data.sidebar.twitter && site.data.sidebar.twitter != "" %}<a target="_blank" href="https://twitter.com/{{ site.data.sidebar.twitter }}">{% include social-icon.html icon="Twitter" %}</a>{% endif %} {% endcomment %}
+			{% comment %} {% if site.data.sidebar.pinterest && site.data.sidebar.pinterest != "" %}<a target="_blank" href="https://pinterest.com/{{ site.data.sidebar.pinterest }}">{% include social-icon.html icon="Pinterest" %}</a>{% endif %} {% endcomment %}
+			<img src="{{ site.baseurl }}/images/flags/australia.svg" width="25" alt="Australia Flag" />
+			<img src="{{ site.baseurl }}/images/flags/united-states-of-america.svg" width="25" alt="USA Flag" />
+			<img src="{{ site.baseurl }}/images/flags/canada.svg" width="25" alt="Canada Flag" />
+		</div>
+	</div>
+	<div class="Next Trip">
+		<h3>👈 Next Trip</h3>
+		<table>
+			<tr><td><strong>From: </strong></td><td>Melbourne > London</td></tr>
+			<tr><td><strong>When: </strong></td><td>April - October 2020</td></tr>
+			<tr><td><strong>Spend: </strong></td>
+				<td style="float:right">
+					<iframe height="22px" width="101px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSF9VQwrhBzGZn9scMsQoOZObTYT6P40qE-WKCWEZq7k6aLIc3z9bg_-FTTmr8tKET8nU7jg7lTQvFe/pubhtml?gid=74147185&amp;single=true&amp;widget=false&amp;chrome=false&amp;headers=false&amp;range=B3"></iframe>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="donate">
+		<h3>🙏 Donate</h3>
+		<div class="body">
+			<p><a href="https://agl.goodcompany.org/au/fundraising/Ride-to-London-Bushfire-Appeal" target="_blank">🔥 To Australian Bushfires 🚒</a></p>
+			<p class="mini">or</p>
+			<p><a href="https://paypal.me/dylangeorgefield/5" target="_blank">Send a personal donation 🍻</a></p>
+		</div>
+	</div>
+	<div class="sponsors">
+		<h3>👏 Supported by</h3>
+		<p class="andystrapz">
+			<a href="https://www.andystrapz.com/" target="_blank">
+				<img src="../images/logos/andystrapz-kangaroo-logo-white-2013.png" alt="Andy Strapz Motorbike Gear Logo" />
+			</a>
+		</p>
+		<p class="bboffroad">
+			<a href="https://bboffroad.com.au/" target="_blank">
+				<img src="https://i.ibb.co/wCCybhB/bb-offroad-engineering-logo.jpg" alt="B&B Offroad Engineering Logo" />
+			</a>
+		</p>
+		<p>
+			<a href="https://barkbusters.net/" target="_blank">
+			<img src="https://i.ibb.co/XVjK150/barkbusters-handguards-logo.png" alt="Barkbusters Handguards Logo" />
+		</p>
+		<p>
+			<a href="https://www.lightforce.com/" target="_blank">
+				<img src="https://i.ibb.co/JB9WBVx/LF-logo-RGB-BK-no-bkg-300pix.png" alt="Lightforce Australia Logo" />
+			</a>
+		</p>
+	</div>
+	{% if site.newsletter_action && site.newsletter_action!=""%}<form action="{{ site.newsletter_action }}" method="post">
+		<h3>Newsletter</h3>
+		<p>Get my latest recipes sent straight to your inbox.</p>
+		<input type="text" name="EMAIL" placeholder="Email address">
+		<input type="submit" value="Sign up">
+	</form>
+	{% endif %}
+</aside>

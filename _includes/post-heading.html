@@ -1,0 +1,23 @@
+<div class="post-heading">
+	{% if include.post_page and include.post.show_stats %}
+		<div class="take-me">
+			<a class="button" href="#recipe">Jump to stats</a>
+		</div>
+	{% endif %}
+	<h1>
+		<a href="{{ include.post.url }}">
+			{{ include.post.title }}
+		</a>
+	</h1>
+	{% if include.post.subtitle %}
+		<h2>
+			{{ include.post.subtitle }}
+		</h2>
+	{% endif %}
+	<time datetime="{{ include.post.date | date_to_xmlschema }}">
+		{{ include.post.date | date: "%B %-d, %Y" }}
+		{% if include.post.where %}
+			 - {{ include.post.where }}
+		{% endif %}
+	</time>
+</div>

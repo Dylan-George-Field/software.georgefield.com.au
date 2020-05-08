@@ -1,1 +1,115 @@
-Hello World 👋
+---
+title: Home
+---
+<div class="home">
+	<div class="feature section">
+			<h1 class="section-border">
+				<a href="/episodes">
+					{% include social-icon.html icon="Feature" %} Feature
+				</a>
+			</h1>
+		<section class="posts">
+			{% for post in site.categories.Feature %}
+				<article class="post">
+					{% include post-heading.html post=post %}
+					<div class="image">
+						<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title }}">
+					</div>
+
+					{{ post.excerpt }}
+
+					<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+				</article>
+			{% endfor %}
+		</section>
+	</div>
+	<div class="episodes section">
+		<h1 class="section-border">
+			<a href="/episodes">
+				{% include social-icon.html icon="YouTube" %} Episodes
+			</a>
+		</h1>
+		{% assign esize = site.posts.Episodes | size %}
+		{% if esize == 0 %}
+			<p class="no-episodes">
+				<iframe width="80%" height="315px" src="https://www.youtube.com/embed/GgyPJhQuKUM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</p>
+		{% else %}
+			{% for post in site.categories.Episodes %}
+				<article class="post">
+					{% include post-heading.html post=post %}
+					<div class="image">
+						<img src="{{ post.featured_image }}" alt="{{ post.title }}">
+					</div>
+
+					{{ post.excerpt }}
+
+					<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+				</article>
+			{% endfor %}
+		{% endif %}
+	</div>
+	<div class="instagram section">
+		<h1 class="section-border">
+			<a href="https://instagram.com/dylan_george_field">
+				{% include social-icon.html icon="Instagram" %} Instagram
+			</a>
+		</h1>
+			<ul>
+			</ul>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script>
+				$.getJSON('https://www.instagram.com/dylan_george_field/?__a=1', function(data) {
+					var posts = data.graphql.user.edge_owner_to_timeline_media.edges;
+					console.log(posts);
+					for (var i = 0; i < posts.length - 6; i++) {
+						var thumb = posts[i].node.thumbnail_resources[2].src;
+						var url = posts[i].node.shortcode;
+						var caption = posts[i].node.edge_media_to_caption.edges[0].node.text.substring(0, 75);
+						$('.instagram ul').append(
+							'<li><a href="https://www.instagram.com/p/' + url + '" target="_blank">' +
+								'<img src="' + thumb + '" /></a><p>'+ caption +'...</p></li>'
+						);
+					}
+				});
+			</script>
+		</div>
+	<div class="blog section">
+		<h1 class="section-border">
+			<a href="/blog">
+				{% include social-icon.html icon="RSS" %} Blog
+			</a>
+		</h1>
+		<section class="posts">
+			{% for post in paginator.posts %}
+				{% if post.categories contains "Feature" %}
+				{% else %}
+					<article class="post">
+						{% include post-heading.html post=post %}
+						<div class="image">
+							<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title }}">
+						</div>
+
+						{{ post.excerpt }}
+
+						<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
+					</article>
+				{% endif %}
+			{% endfor %}
+
+			{% if paginator.total_pages > 1 %}
+				<div class="pagination">
+					{% if paginator.previous_page %}
+						<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+					{% endif %}
+
+					<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+					{% if paginator.next_page %}
+						<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+					{% endif %}
+				</div>
+			{% endif %}
+		</section>
+	</div>
+</div>
