@@ -26,25 +26,15 @@
 		}
 	}
 
-	.social-icons {
-		.country-list {
+	.skills {
+		
+		ul {
 			display: flex;
-			justify-content: center;
-			margin: 10px 0 0 0;
-			a {
-				padding: 3px;
-				text-decoration: none;
+			flex-wrap: wrap;
+		}
 
-				&:hover svg {
-					fill: #000;
-				}
-			}
-
-			svg {
-				width: 25px;
-				height: 25px;
-				fill: $light-grey;
-			}
+		li {
+			width: 50%;
 		}
 	}
 
