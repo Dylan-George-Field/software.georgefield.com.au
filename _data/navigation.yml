@@ -1,14 +1,12 @@
-- name: Home
-  link: /
 - name: About
   link: /about/
-- name: Episodes
-  link: /episodes
-- name: Maps
-  link: /maps/
-- name: Bikes
-  link: /bikes/
+- name: CV
+  link: /cv
+- name: Skills
+  link: /skills/
 - name: Blog
   link: /blog/
+- name: Adventure
+  link: https://adventure.georgefield.com.au
 - name: Contact
   link: /contact/

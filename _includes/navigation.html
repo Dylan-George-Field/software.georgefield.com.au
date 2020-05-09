@@ -1,5 +1,7 @@
 <nav>
-	<a class="editor-link btn" href="cloudcannon:collections/_data/navigation.yml" class="btn"><strong>&#9998;</strong> Edit navigation</a>
+	<a href="{{site.baseurl }}/">
+		<img src="{{ site.baseurl }}{{ site.data.company_details.logo_image }}" alt="Home" />
+	</a>
 	{% for link in site.data.navigation %}
 	{% assign class = "" %}
 
