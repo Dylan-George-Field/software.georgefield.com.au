@@ -36,7 +36,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      push_sidebar_down: true
+      push_sidebar_down: false
       print_stylesheet: true
       comments: true
       _options:
@@ -51,13 +51,13 @@ defaults:
       path: ""
     values:
       layout: "default"
-      push_sidebar_down: true
+      push_sidebar_down: false
   -
     scope:
       path: "index.html"
     values:
       layout: "default"
-      push_sidebar_down: true
+      push_sidebar_down: false
 
 plugins:
   - jekyll-sitemap
