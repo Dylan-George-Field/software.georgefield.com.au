@@ -1,13 +1,22 @@
-<nav>
-	<a href="{{site.baseurl }}/">
-		<img src="{{ site.baseurl }}{{ site.data.company_details.logo_image }}" alt="Home" />
-	</a>
-	{% for link in site.data.navigation %}
-	{% assign class = "" %}
+<div>
+	<nav>
+		<a href="{{site.baseurl }}/">
+			<img src="{{ site.baseurl }}{{ site.data.company_details.logo_image }}" alt="Home" />
+		</a>
+		{% for link in site.data.navigation %}
+		{% assign class = "" %}
 
-		{% if link.link == page.url %}
-			{% assign class = class | append: " active" %}
-		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
-	{% endfor %}
-</nav>
+			{% if link.link == page.url %}
+				{% assign class = class | append: " active" %}
+			{% endif %}
+			<a href="{% include relative-src.html src=link.link %}" class="{{ class }}">{{ link.name }}</a>
+		{% endfor %}
+		<a class="social-icon" href="{{ site.baseurl }}{{ site.data.company_details.github }}" target="_blank">
+			{% include social-icon.html icon="GitHub" %}
+		</a>
+		<a class="social-icon" href="{{ site.baseurl }}{{ site.data.company_details.linkedin }}" target="_blank">
+			{% include social-icon.html icon="LinkedIn" %}
+		</a>
+	</nav>
+</div>
+
