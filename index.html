@@ -3,6 +3,7 @@ title: Home
 ---
 <div class="home">
 	<div class="blog section">
+
 		<section class="posts">
 			{% for post in paginator.posts %}
 				{% if post.categories contains "Feature" %}
@@ -10,7 +11,9 @@ title: Home
 					<article class="post">
 						{% include post-heading.html post=post %}
 						<div class="image">
-							<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title }}">
+							<a href="{{ site.baseurl }}{{ post.url }}">
+								<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title }}">
+							</a>
 						</div>
 
 						{{ post.excerpt }}
