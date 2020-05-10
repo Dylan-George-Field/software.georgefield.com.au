@@ -9,8 +9,13 @@
 	}
 	
 	h3 {
-		padding-bottom: 5px;
 		border-bottom: 1px solid black;
+		font-size: 1.1em;
+		padding-bottom: 5px;
+
+		&.title {
+			margin-top: 0;
+		}
 	}
 	
 	.author {
