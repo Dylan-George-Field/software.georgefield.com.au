@@ -4,15 +4,15 @@ title: Mixture Six
 categories:
   - Work
 feature_image: /images/blog/mixture-six-homepage.jpg
-feature_image_title: Mixture Six was based on the concept of '6'
+feature_image_title: 
 show_stats: false
 ---
 <p>
   Mixture Six was a lifestyle blog based in the cultural mecha of Fitzroy, Melbourne.
 </p>
 <p>
-  I was the IT consultant and webmaster driving the site from inception with my 
-  old High School friends Jess Johnston and Laura Mowat. 
+  The concept was devised by my High School pals Jess Johnson and Laura Mowat. We built
+  mixture six together. I was the IT consultant and site maintainer. 
 </p>
 <p>
   The site was based on six categories: music, art & design, people, food, wellbeing and travel.
@@ -25,9 +25,9 @@ show_stats: false
   Articles were written by Jess and her friends on some of the hottest things in Melbourne.
 </p>
 <p>
-  The website was designed by Laura Mowat, created by Grafik, tweaked and maintained by myself.
+  The website was designed by Laura Mowat, built by Grafik, tweaked and maintained by myself.
 </p>
-
 <p>
-  Website: Wordpress
+  <strong>Website: </strong><a href="www.mixturesix.com" target="_blank">www.mixturesix.com</a><br />
+  <strong>Built-on: </strong>Wordpress
 </p>
