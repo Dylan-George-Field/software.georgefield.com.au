@@ -2,8 +2,8 @@
 date: 22-11-2019
 title: Mixture Six
 categories:
-  - Work
-feature_image: /images/blog/mixture-six-homepage.jpg
+  - Websites
+feature_image: /images/blog/mixture-six/mixture-six-homepage.jpg
 feature_image_title: 
 show_stats: false
 ---
