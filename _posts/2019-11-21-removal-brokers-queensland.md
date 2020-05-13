@@ -4,17 +4,23 @@ title: Removal Brokers Queensland
 categories:
   - Websites
 feature_image: /images/blog/removal-brokers-queensland/removal-brokers-queensland-homepage.png
-feature_image_title: Dylan George Field's fully loaded Suzuki DR650 adventure bike parked in front of the San Gabriel mountains near Los Angeles, California, USA
+feature_image_title: 
 ---
-I travelled 35,000km over 89-days to see as much of North America as I could.
-Most nights I camped, 10 in cheap hotels and a few with friends or strangers. 
-The USA is a naturally diverse place like its people. I enjoyed every minute of it.
-
-I organised a DR650 through 'the famous' James Tucker. I met him on advrider. He purchased,
-prepared and registered the bike under my name before I arrived. You only need a passport number to register a vehicle in California. He even offers mechanical service including modifications. I simply flew to Los Angeles, got to his house, stayed the night and rode off
-the next day.
-
-I got an unlimited AT&T sim card (works in Canada) and Google Maps my way around. I used 
-https://freecampsites.net/ to find places to stay for free for 70 of the 90-days.
-
-I sold my the motorbike privately in Los Angeles.
+<p>
+The first freelance job I got when I was at university. A friend of mine asked me to update
+their existing site. 
+</p>
+<p>
+They had an aging site and asked me if I could spruce it up. The brief was to make it look 'professional'. I did a great job at the time. I can't remember why it never went live. I don't think it was a big improvement on the original.
+</p>
+<p>
+It included jquery animations, google maps address auto-suggest, date-picker and cool validation flags on quote input fields. I was proud, it must've been 2010.
+</p>
+<p>
+It still exists, oddly as a 'test' site. I think Rowan forgot about it.
+</p>
+<p>
+<strong>Built-on:</strong> Basic HTML/CSS/Javascript <br />
+<strong>Test site:</strong> <a href="www.removalbrokers.com.au/test">www.removalbrokers.com.au/test</a> <br />
+<strong>Original:</strong> <a href="www.removalbrokers.com.au">www.removalbrokers.com.au</a>
+</p>
