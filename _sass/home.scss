@@ -4,11 +4,19 @@
     }
 
     .post {
-        margin-right: 3%;
+        margin: 0 !important;
+        margin-right: 3% !important;
         width: 200px;
 
         h1 {
             font-size: 1em;
+        }
+
+        time {
+            font-size: 12px;
+            margin-bottom: 0;
+            line-height: 2;
+            padding-bottom: 5px !important;
         }
 
         p {

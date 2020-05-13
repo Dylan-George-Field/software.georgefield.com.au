@@ -15,9 +15,9 @@ title: Home
 								<img src="{{ post.feature_image }}" alt="{{ post.feature_image_title }}">
 							</a>
 						</div>
-
-						{{ post.excerpt }}
-
+						<p>
+							{{ post.excerpt | strip_html | truncatewords: 50 }}
+						</p>
 						<p><a class="button" href="{{ site.baseurl }}{{ post.url }}">Read more</a></p>
 					</article>
 				{% endif %}
