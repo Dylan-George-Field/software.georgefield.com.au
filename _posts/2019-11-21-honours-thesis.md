@@ -16,19 +16,19 @@ The work is based on how to stop people stealing your fingerprints. You only hav
 What I did was use something called a Fuzzy Embedder and a method called Quantization Index Modulation proposed by <a href="{{ site.baseurl }}/downloads/embedding-renewable-cryptographic-keys-into-continuous-noisy-data-buhan.pdf">Buhan et al</a> to combine a key with a fingerprint.
 </p>
 <p>
-It worked but it has problems. Basically, you would have random errors and the key couldn't be reproduced. You could produce small keys but not 128-bit reliably.
+It worked but it has problems. Basically, you would have random errors and the key couldn't be reproduced. You could produce small keys but not 128-bits reliably.
 </p>
 <p>
-The problem is getting reliable data points (minutiae) from fingers. Rotation, smudging, pressure. They all change the image every time you scan. The minutiae change every time. It's not reliable enough. At leased not with the setup I was using.
+The problem is getting good, re-usable data points (minutiae) from fingers. Rotation, position, pressure. They all change the image every time you scan. The minutiae change every time. It's difficult to get accurate readings. At leased, with the cheap setup I had.
 </p>
 <p>
-I did all this with a shitty old microsoft fingerprint reader a friend gave me, freeware C# fingerprint extraction software and a bunch of code from MATLAB. I was surprised it worked at all.
+I did all this with a shitty old microsoft fingerprint reader a friend gave me, freeware C# fingerprint extraction software and a bunch of code from MATLAB. I'm surprised it worked at all.
 </p>
 <p>
 The quantiser also has trouble when points fall near its boundaries and incorrectly maps vectors to 'ghost' data points. Eg, One that doesn't exist in the original set. It could be overcome with more reliable data and error correcting codes.
 </p>
 <p>
-Maybe retinal scan would give better results, a better fingerprint reader and optimised software.
+Maybe retinal scan would give better results or a better fingerprint reader and optimised software.
 </p>
 <p>
 🤷‍♂️
