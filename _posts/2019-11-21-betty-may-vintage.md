@@ -21,7 +21,10 @@ The parent/child hierarchy of pages was perfect to list the layers of categories
 While a better solution can be made with Shopify or other store plugins like WooCommerce. This worked out nicely as a pop-up solution before the business found its feet. 
 </p>
 <p>
-Its lasted over 7 years and is key to their business. Pretty good for a grad with little experience.
+Its been up for over 7 years and is key to their business.
+</p>
+<p>
+Pretty good for a grad with little experience.
 </p>
 <p>
 <strong>Built-on:</strong> Wordpress, custom theme <br />

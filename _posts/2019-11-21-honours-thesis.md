@@ -4,7 +4,7 @@ title: Honours Thesis
 categories:
   - University
 feature_image: /images/blog/honours-thesis/honours-thesis-dylan-george-field.jpg
-feature_image_title: 
+feature_image_title:
 ---
 <p>
 I was asked to investigate fingerprint technology before it went viral on the iPhone 5S and other mobiles.
