@@ -16,16 +16,22 @@ The work is based on how to stop people stealing your fingerprints. You only hav
 What I did was use something called a Fuzzy Embedder and a method called Quantization Index Modulation proposed by <a href="{{ site.baseurl }}/downloads/embedding-renewable-cryptographic-keys-into-continuous-noisy-data-buhan.pdf">Buhan et al</a> to combine a key with a fingerprint.
 </p>
 <p>
-It worked but it had problems. The main difficulty was getting reliable data points (minutiae) from fingerprints. The second was the quantizer has difficulty when data points fall near its boundaries as well as incorrectly mapping a vector to a 'ghost' data point. One that doesn't exist in the original set.
+It worked but it has problems. Basically, you would have random errors and the key couldn't be reproduced. You could produce small keys but not 128-bit reliably.
 </p>
 <p>
-Basically, you would have random errors and the key couldn't be reproduced. Not enough for a 128-bit key, anyway. Smaller keys are more reliable.
+The problem is getting reliable data points (minutiae) from fingers. Rotation, smudging, pressure. They all change the image every time you scan. The minutiae change every time. It's not reliable enough. At leased not with the setup I was using.
 </p>
 <p>
 I did all this with a shitty old microsoft fingerprint reader a friend gave me, freeware C# fingerprint extraction software and a bunch of code from MATLAB. I was surprised it worked at all.
 </p>
 <p>
-It would work better with an ordered and reliable dataset like a retinal scan although you could get better results with a better fingerprint reader and optimised software.
+The quantiser also has trouble when points fall near its boundaries and incorrectly maps vectors to 'ghost' data points. Eg, One that doesn't exist in the original set. It could be overcome with more reliable data and error correcting codes.
+</p>
+<p>
+Maybe retinal scan would give better results, a better fingerprint reader and optimised software.
+</p>
+<p>
+🤷‍♂️
 </p>
 <p>
 <strong>Supervisor:</strong> Nandita Bhattacharjee (Monash University)<br />
