@@ -20,7 +20,7 @@ I took a YouTube style approach to the design and it looked alright. The homepag
 If only the content of the articles were any good. I only got two comments on my review of TConf. It was my first time blogging and after watching <a href="https://www.udemy.com/course/writing-with-flair-how-to-become-an-exceptional-writer/" target="_blank">Writing with Flair: How to become an exceptional writer"</a> by Shani Raja. I've become slightly less shit.
 </p>
 <p>
-The cool thing about Wordpress is that you can host a <a href="https://www.wpbeginner.com/glossary/multisite/" target="_blank">multi-site</a>. I could host this one and my first on for record keeping. How cool is that?
+The cool thing about Wordpress is that you can host a <a href="https://www.wpbeginner.com/glossary/multisite/" target="_blank">multi-site</a>. I could host this one and my first on for record keeping. It's almost as cool as the random quotes I had at the top of the homepage.
 </p>
 <p>
 Unfortunately, my web-hosting provider, Netregistry, was a piece of shit. They changed my website IP without telling me and blamed me for it. When I asked them what the new IP was, they gave me the wrong one. I found it myself and fixed it. My sisters site also broke and I was blamed for 'recommending' them over 7 years ago before they were bought by Melbourne IT 🙄
