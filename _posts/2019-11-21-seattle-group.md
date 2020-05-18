@@ -21,6 +21,6 @@ As standard these sites include:
   <li>Wordpress installation</li>
 </ul>
 <strong>Built-on: </strong>Wordpress<br />
-<strong>Features: </strong>Purchased Theme, Responsive, Backup, SEO
+<strong>Features: </strong>Purchased Theme, Responsive, Backup, SEO<br />
 <strong>Website: </strong><a href="http://www.seattlegroup.com.au/">www.seattlegroup.com.au</a>
 </p>
