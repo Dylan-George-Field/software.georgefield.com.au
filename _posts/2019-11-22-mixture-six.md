@@ -29,6 +29,6 @@ show_stats: false
 </p>
 <p>
   <strong>Built-on: </strong>Wordpress<br />
-  <strong>Features: </strong>Custom Design, Author bio, Loads 6 next posts via ajax
+  <strong>Features: </strong>Custom Design, Author bio, Loads 6 next posts via ajax<br />
   <strong>Website: </strong><a href="www.mixturesix.com" target="_blank">www.mixturesix.com</a>
 </p>
