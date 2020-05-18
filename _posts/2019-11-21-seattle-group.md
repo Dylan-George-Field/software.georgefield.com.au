@@ -9,6 +9,18 @@ feature_image_title:
 <p>
 I don't even remember building this one but apparently I did!
 <p>
-<strong>Built-on:</strong> Wordpress, purchased theme <br />
-<strong>Website:</strong> <a href="http://www.seattlegroup.com.au/">www.seattlegroup.com.au</a>
+<p>
+As standard these sites include:
+</p>
+<ul>
+  <li>Google Analytics</li>
+  <li>Google Search Console</li>
+  <li>Backup app to dropbox</li>
+  <li>SEO plugin</li>
+  <li>Domain and web-hosting setup</li>
+  <li>Wordpress installation</li>
+</ul>
+<strong>Built-on: </strong>Wordpress<br />
+<strong>Features: </strong>Purchased Theme, Responsive, Backup, SEO
+<strong>Website: </strong><a href="http://www.seattlegroup.com.au/">www.seattlegroup.com.au</a>
 </p>

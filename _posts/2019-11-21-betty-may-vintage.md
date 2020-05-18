@@ -27,6 +27,7 @@ Its been up for over 7 years and is key to their business.
 Pretty good for a grad with little experience.
 </p>
 <p>
-<strong>Built-on:</strong> Wordpress, custom theme <br />
+<strong>Built-on:</strong> Wordpress<br />
+<strong>Features: </strong>Custom Theme, Inventory List, Blog, Backup, SEO
 <strong>Website:</strong> <a href="www.bettymayvintage.com.au">www.bettymayvintage.com.au</a>
 </p>

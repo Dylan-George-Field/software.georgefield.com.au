@@ -20,7 +20,8 @@ It included jquery animations, google maps address auto-suggest, date-picker and
 It still exists, oddly as a 'test' site. I think Rowan forgot about it.
 </p>
 <p>
-<strong>Built-on:</strong> Basic HTML/CSS/Javascript <br />
+<strong>Built-on:</strong> Custom HTML/CSS/Javascript <br />
+<strong>Features:</strong> Online Questionnaire/Quote, Address Auto-suggest, Form Validation
 <strong>Test site:</strong> <a href="www.removalbrokers.com.au/test">www.removalbrokers.com.au/test</a> <br />
 <strong>Original:</strong> <a href="www.removalbrokers.com.au">www.removalbrokers.com.au</a>
 </p>

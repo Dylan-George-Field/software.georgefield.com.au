@@ -22,6 +22,18 @@ The pictures are stunning. It's a lovely place. I stayed there with my family. I
 Awkward.
 </p>
 <p>
-<strong>Built-on:</strong> Wordpress, purchased theme <br />
+As standard these sites include:
+</p>
+<ul>
+  <li>Google Analytics</li>
+  <li>Google Search Console</li>
+  <li>Backup app to dropbox</li>
+  <li>SEO plugin</li>
+  <li>Domain and web-hosting setup</li>
+  <li>Wordpress installation</li>
+</ul>
+<p>
+<strong>Built-on:</strong> Wordpress<br />
+<strong>Features: </strong> Purchased Theme, Responsive, Backup, SEO<br />
 <strong>Website:</strong> <a href="http://www.brooklandsfarm.com.au/">www.brooklandsfarm.com.au</a>
 </p>

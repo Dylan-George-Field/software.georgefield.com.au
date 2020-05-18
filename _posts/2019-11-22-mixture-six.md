@@ -28,6 +28,7 @@ show_stats: false
   The website was designed by Laura Mowat, built by Grafik, tweaked and maintained by myself.
 </p>
 <p>
-  <strong>Website: </strong><a href="www.mixturesix.com" target="_blank">www.mixturesix.com</a><br />
-  <strong>Built-on: </strong>Wordpress
+  <strong>Built-on: </strong>Wordpress<br />
+  <strong>Features: </strong>Custom Design, Author bio, Loads 6 next posts via ajax
+  <strong>Website: </strong><a href="www.mixturesix.com" target="_blank">www.mixturesix.com</a>
 </p>
