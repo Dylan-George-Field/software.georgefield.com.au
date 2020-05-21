@@ -20,7 +20,8 @@ show_stats: false
   The names under the logo are the two riders who passed while crossing Australia on a ride I was supposed to be on.
 </p>
 <p>
-  <strong>Built-on: </strong>GitHub Pages, Jekyll<br />
+  <strong>Built-on: </strong>GitHub Pages, Jekyll, Cloudflare<br />
   <strong>Features: </strong>Customised template, blog, instagram integration, google sheet integration<br />
   <strong>Website: </strong><a href="adventure.georgefield.com.au" target="_blank">adventure.georgefield.com.au</a>
+  <strong>Repository: <strong><a href="https://github.com/Dylan-George-Field/dylan-george-field.github.io" target="_blank">https://github.com/Dylan-George-Field/dylan-george-field.github.io</a>
 </p>
