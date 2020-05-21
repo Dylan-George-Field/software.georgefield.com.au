@@ -3,7 +3,7 @@ date: 22-11-2019
 title: Adventure Site
 categories:
   - Websites
-feature_image: /images/blog/adventure/adventure-george-field-homepage.jpg
+feature_image: /images/blog/adventure-george-field/adventure-george-field-homepage.png
 feature_image_title: 
 show_stats: false
 ---
