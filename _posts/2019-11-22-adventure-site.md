@@ -22,6 +22,6 @@ show_stats: false
 <p>
   <strong>Built-on: </strong>GitHub Pages, Jekyll, Cloudflare<br />
   <strong>Features: </strong>Customised template, blog, instagram integration, google sheet integration<br />
-  <strong>Website: </strong><a href="adventure.georgefield.com.au" target="_blank">adventure.georgefield.com.au</a>
-  <strong>Repository: <strong><a href="https://github.com/Dylan-George-Field/dylan-george-field.github.io" target="_blank">https://github.com/Dylan-George-Field/dylan-george-field.github.io</a>
+  <strong>Website: </strong><a href="adventure.georgefield.com.au" target="_blank">adventure.georgefield.com.au</a><br />
+  <strong>Repository: </strong><a href="https://github.com/Dylan-George-Field/dylan-george-field.github.io" target="_blank">https://github.com/Dylan-George-Field/dylan-george-field.github.io</a>
 </p>
