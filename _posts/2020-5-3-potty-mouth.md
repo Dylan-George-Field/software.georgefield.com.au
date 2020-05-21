@@ -29,6 +29,5 @@ Try it yourself and print or order your own at <a href="https://www.pottymouth.i
   <li>Front end: Quasar, VueJS</li>
   <li>Back end: Azure Functions</li>
 </ul>
-<strong>Features: </strong>Chat, Image upload, QR Code, Fancy redirects
-<strong>Website:</strong> <a href="www.bettymayvintage.com.au">www.bettymayvintage.com.au</a>
-</p>
+<strong>Features: </strong>Chat, Image upload, QR Code, Fancy redirects <br />
+<strong>Website:</strong> <a href="https://www.pottymouth.io">www.pottymouth.io</a>
