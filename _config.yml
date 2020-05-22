@@ -2,11 +2,11 @@
 # Site
 
 title: Dylan George Field
-url: "https://software.georgefield.com.au"
+url: "https://www.georgefield.com.au"
 baseurl:
 google_analytics_key: UA-153074309-1
 newsletter_action:
-disqus_shortname: software-georgefield
+disqus_shortname: www-georgefield-com-au
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
