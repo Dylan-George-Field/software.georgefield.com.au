@@ -3,7 +3,7 @@ date: 2019-11-21
 title: Betty May Vintage Hire
 categories:
   - Websites
-feature_image: /images/blog/betty-may-vintage/betty-may-vintage-homepage.png
+feature_image: /images/blog/betty-may-vintage/betty-may-vintage-homepage.jpg
 feature_image_title: 
 ---
 <p>

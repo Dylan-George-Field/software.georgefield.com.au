@@ -3,7 +3,7 @@ date: 2019-11-21
 title: Brooklands Farm
 categories:
   - Websites
-feature_image: /images/blog/brooklands-farm/brooklands-farm-homepage.png
+feature_image: /images/blog/brooklands-farm/brooklands-farm-homepage.jpg
 feature_image_title: 
 ---
 <p>
