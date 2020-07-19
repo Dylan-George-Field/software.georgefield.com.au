@@ -3,7 +3,7 @@ date: 2019-11-21
 title: Dylan's Second Website
 categories:
   - Websites
-feature_image: /images/blog/second-website/dylans-second-website-homepage.png
+feature_image: /images/blog/second-website/dylans-second-website-homepage.jpg
 feature_image_title: 
 ---
 <p>
