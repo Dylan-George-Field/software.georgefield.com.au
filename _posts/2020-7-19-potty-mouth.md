@@ -3,7 +3,7 @@ date: 2020-7-19
 title: Potty Mouth
 categories:
   - Projects
-feature_image: /images/blog/potty-mouth/potty-mouth-header.png
+feature_image: /images/blog/potty-mouth/pottymouth.io-homepage-heading.jpg
 feature_image_title: 
 ---
 <p>
