@@ -3,7 +3,7 @@ date: 2019-11-21
 title: Seattle Group
 categories:
   - Websites
-feature_image: /images/blog/seattle-group/seattle-group-homepage.png
+feature_image: /images/blog/seattle-group/seattle-group-homepage.jpg
 feature_image_title: 
 ---
 <p>
