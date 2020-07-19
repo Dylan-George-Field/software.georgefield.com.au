@@ -3,11 +3,11 @@ date: 2019-11-21
 title: Villabrae Pastoral
 categories:
   - Websites
-feature_image: /images/blog/villabrae-pastoral/villabrae-pastoral-homepage.png
+feature_image: /images/blog/villabrae-pastoral/villabrae-pastoral-homepage.jpg
 feature_image_title: 
 ---
 <p>
-Another quicks job.
+Another quick job.
 <p>
 <p>
 As standard these sites include:
