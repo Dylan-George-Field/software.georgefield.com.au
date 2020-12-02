@@ -7,26 +7,19 @@
 			</a>
 		</p>
 		<h3 class="title">🌐 Full-stack Cloud Developer</h3>
-		<p>I'm Dylan, a passionate mid-level web application developer working at an ASX50 company in Melbourne, Australia 🇦🇺</p>
+		<p>I'm Dylan, a passionate mid-level web application developer from Melbourne, Australia 🇦🇺</p>
 	</div>
-	<div class="specialisation">
-		<h3>📌 Specialisation</h3>
-		<ul>
-			<li>Microsoft Azure</li>
-			<li>Web Apps</li>
-			<li>Security</li>
-		</ul>
+	<div class="certification">
+		<h3>🥇 Certification</h3>
+		<a href="https://www.youracclaim.com/badges/56362096-c01a-492c-ae07-b4864dc464ec" target="_blank">
+			<img src="{{ site.baseurl }}{{ site.data.sidebar.azure_fundamentals_badge }}" alt="Azure fundamentals badge" />
+		</a>
+		<a href="https://www.youracclaim.com/badges/114f42e7-157c-4047-b69b-de1da620142e" target="_blank">
+			<img src="{{ site.baseurl }}{{ site.data.sidebar.azure_developer_associate_badge }}" alt="Azure developer associate badge" />
+		</a>
 	</div>
-	<div class="skills">
-		<h3>🔨 Skills</h3>
-		<ul>
-			{% for link in site.data.sidebar.skills_markdown | markdownify %}
-				<li>{{link}}</li>
-			{% endfor %}
-		</ul>
-	</div>
-	<div class="Next Trip">
-		<h3>🎓 Graduated</h3>
+	<div class="degrees">
+		<h3>🎓 Degrees</h3>
 		<p>
 			<a href="https://www.monash.edu/" target="_blank">
 				Monash University
@@ -37,19 +30,17 @@
 			<li>Master of Information Technology (Honours)</li>
 		</ul>
 	</div>
-	<div class="donate">
-		<h3>📝 Certificates</h3>
+	<div class="skills">
+		<h3>🔨 Skills</h3>
 		<ul>
-			<li>
-				<a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals" target="_blank">
-					Azure Fundamentals
-				</a>
-			</li>
-			<li>
-				<a href="https://docs.microsoft.com/en-us/learn/certifications/azure-developer" target="_blank">
-					Microsoft Certified: Azure Developer Associate
-				</a>
-			</li>
+			{% for link in site.data.sidebar.skills_markdown | markdownify %}
+				<li>{{link}}</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="donate">
+		<h3>📝 Other</h3>
+		<ul>
 			<li>
 				<a href="https://www.scaledagile.com/certification/courses/safe-for-teams/" target="_blank">
 					Safe Agilist

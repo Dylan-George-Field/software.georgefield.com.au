@@ -30,9 +30,23 @@
 			margin: 0 0 10px 0;
 		}
 	}
+	
+	.certification {
+		overflow: auto;
+
+		img {
+			float: left;
+			width: 50%;
+		}
+	}
+
+	.degrees {
+		clear: both;
+	}
 
 	.skills {
-		
+		clear: both;
+
 		ul {
 			display: flex;
 			flex-wrap: wrap;
@@ -40,40 +54,6 @@
 
 		li {
 			width: 50%;
-		}
-	}
-
-	.donate {
-
-		.body {
-			text-align: center;
-
-			.mini {
-				font-size: 12px;
-				line-height: .1;
-				text-transform: uppercase;
-			}
-		}
-	}
-
-	.sponsors {
-		img {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		.andystrapz {
-			margin-left: 10px;
-
-			img {
-				height: 90px;
-				width: 160px;
-			}
-		}
-		.bboffroad {
-			img {
-				width: 85%;	
-			}
 		}
 	}
 }
