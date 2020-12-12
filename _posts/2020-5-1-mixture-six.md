@@ -11,7 +11,7 @@ show_stats: false
   Mixture Six was a lifestyle blog based in the cultural mecha of Fitzroy, Melbourne.
 </p>
 <p>
-  The concept was devised by my High School pals Jess Johnson and Laura Mowat. We built
+  It was created by my High School pals Jess Johnson and Laura Mowat. We built
   mixture six together. I was the IT consultant and site maintainer. 
 </p>
 <p>
