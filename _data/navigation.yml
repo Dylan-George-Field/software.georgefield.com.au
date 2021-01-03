@@ -1,7 +1,7 @@
 - name: About
   link: /about/
-- name: CV
-  link: /cv
+- name: Hire
+  link: /hire
 - name: Skills
   link: /skills/
 - name: Blog
