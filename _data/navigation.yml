@@ -1,12 +1,10 @@
-- name: About
-  link: /about/
 - name: Hire
   link: /hire
 - name: Skills
   link: /skills/
 - name: Blog
   link: /blog/
-- name: Adventure
-  link: https://adventure.georgefield.com.au
+- name: About
+  link: /about/
 - name: Contact
   link: /contact/
