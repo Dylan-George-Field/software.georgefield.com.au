@@ -1,4 +1,4 @@
-# Adventure Site
+# George Field Site
 
 Based on the Treat template for Jekyll.
 
