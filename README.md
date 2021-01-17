@@ -1,4 +1,4 @@
-# George Field Site
+# Software Site
 
 Based on the Treat template for Jekyll.
 
