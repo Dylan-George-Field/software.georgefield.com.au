@@ -1,6 +1,6 @@
 ---
 date: 2022-1-6
-title: Work from Home Logger
+title: Work from Home Log
 categories:
   - Blog
 feature_image: \images\blog\wfh-log\wfh-log-screenshot.png
@@ -16,5 +16,5 @@ the unlikely event that you get audited. Simply set and forget. You'll be covere
 
 A .net wpf app. Please find the download links below.
 
-**Website:** [https://workfromhomelogbook.com/](https://workfromhomelogbook.com/)  
-**GitHub:** [https://github.com/dylan-george-field/work-from-home-logger](https://github.com/dylan-george-field/work-from-home-logger)
+**Website:** [https://workfromhomelogbook.com/](https://www.wfh-log.com/)  
+**GitHub:** [https://github.com/dylan-george-field/work-from-home-log](https://github.com/dylan-george-field/work-from-home-log)
