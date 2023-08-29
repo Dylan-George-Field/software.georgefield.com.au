@@ -16,5 +16,5 @@ the unlikely event that you get audited. Simply set and forget. You'll be covere
 
 A .net wpf app. Please find the download links below.
 
-**Website:** [https://workfromhomelogbook.com/](https://www.wfh-log.com/)  
+**Website:** [https://www.wfh-log.com/](https://www.wfh-log.com/)  
 **GitHub:** [https://github.com/dylan-george-field/work-from-home-log](https://github.com/dylan-george-field/work-from-home-log)
