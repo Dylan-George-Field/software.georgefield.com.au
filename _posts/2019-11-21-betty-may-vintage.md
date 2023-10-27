@@ -28,6 +28,6 @@ Pretty good for a grad with little experience.
 </p>
 <p>
 <strong>Built-on:</strong> Wordpress<br />
-<strong>Features: </strong>Custom Theme, Inventory List, Blog, Backup, SEO
+<strong>Features: </strong>Custom Theme, Inventory List, Blog, Backup, SEO<br />
 <strong>Website:</strong> <a href="www.bettymayvintage.com.au">www.bettymayvintage.com.au</a>
 </p>
