@@ -3,7 +3,7 @@ date: 2020-7-19
 title: Melbourne Software Developer Survival Guide
 categories:
   - Blog
-feature_image: \images\blog\developer-guide\weyne-yew-flinders-st.jpg
+feature_image: /images/blog/developer-guide/weyne-yew-flinders-st.jpg
 feature_image_title: Photo by [Weyne Yew](https://unsplash.com/@blurblock07?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/melbourne?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 permalink: /blog/melbourne-software-developer-guide
 ---
