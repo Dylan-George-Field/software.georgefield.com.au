@@ -3,7 +3,7 @@ date: 2022-1-6
 title: Work from Home Log
 categories:
   - Blog
-feature_image: \images\blog\wfh-log\wfh-log-screenshot.png
+feature_image: /images/blog/wfh-log/wfh-log-screenshot.png
 feature_image_title: A screenshot of the work from home logger application for windows.
 permalink: /blog/work-from-home-logger
 ---
